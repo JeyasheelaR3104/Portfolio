@@ -6,16 +6,17 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google Web Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 </head>
-<body>
-    <div class="header">
+<body data-spy="scroll">
+<section id="home">
+    <div class="header" id="mainheader">
         <div class="logo"><h1><span class="text">Port</span>Folio</h1></div>
         <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">About</a></li>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
            <li><a href="#">Quality</a></li>
            <li><a href="#">Skill</a></li>
            <li><a href="#">Service</a></li>
@@ -25,21 +26,34 @@
     <div class="row">    
         <a href="">Hire Me</a>
     </div>
-</div>
-    
-  <div class="row1"> 
-        <img src="img/pic4.jpg" alt="">
-       <h5>I'm</h5>
-       <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Jeyasheela R</h1>
-       <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-       <h3><span class="texts">Front End Developer!, Web Developer!, Web Designer!</span><strong class="text-slider"></strong></h3>
-      <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-      <a href="img/JEYASHEELA R (4).pdf" class="btn btn-outline-light mr-5">View CV</a>
-      <a href="img/JEYASHEELA R (4).pdf" download="img/JEYASHEELA R (4).pdf" class="btn btn-outline-light mr-5">Download CV</a>
-
     </div>
-    <script src="main.js"></script> 
-    <script src="./typed.js-master/lib/typed.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<div class="row1">
+    <img src="img/pic4.jpg" alt="">
+    <h5>I'm</h5>
+    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Jeyasheela R</h1>
+    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+    <h3><span id="line"></span><br><strong class="text-slider"></strong></h3>
+    <a href="img/JEYASHEELA R (4).pdf">View CV</a>
+    <a href="img/JEYASHEELA R (4).pdf" download="img/JEYASHEELA R (4).pdf" class="btn btn-outline-light mr-5">Download CV</a>
+</div>
+</section>
+<section id="about">
+    <div class="row2">
+       <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">ABOUT</h1>
+       <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+       <h3>ABOUT ME</h3>
+    </div>
+    <div class="col1">
+        <img src="img/shee.jpg" alt="" width="400" height="550">
+        <h3>Front End Developer & Web Developer</h3>
+        <p>I am a Computer Science Engineering student with a passion for Frontend Development 
+           and web development. Skilled in HTML, CSS, JavaScript, SQL, and UI/UX design,with
+           hands-on experience through internships. Certified in Software Testing, Cloud Computing,
+           and Full Stack Development. A quick learner, team player, and problem-solver, eager to 
+           contribute to impactful projects in a dynamic environment.</p>
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
 </body>
 </html>
